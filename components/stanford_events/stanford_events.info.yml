@@ -1,0 +1,12 @@
+name: Stanford events
+machine_name: stanford-events
+type: pdb
+description: 'Events listing'
+package: React
+module_status: active
+presentation: react
+core: '8.x'
+path: 'events.json'
+add_js:
+  footer:
+    'dist/assets/StanfordEvents.js': {}

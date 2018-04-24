@@ -1,0 +1,15 @@
+stanford_events_pdb.events_json:
+  path: '/events.json'
+  defaults:
+    _controller: '\Drupal\stanford_events_pdb\Controller\EventsJson::eventsJson'
+    _title: 'Events'
+  requirements:
+    _access: 'TRUE'
+
+stanford_events_pdb.events:
+  path: '/events'
+  defaults:
+    _controller: '\Drupal\stanford_events_pdb\Controller\Events::eventsContent'
+    _title: 'Events'
+  requirements:
+    _access: 'TRUE'

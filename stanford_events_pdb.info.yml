@@ -1,0 +1,10 @@
+name: Stanford Events PDB
+description: Decoupled blocks for stanford events.
+core: 8.x
+package: Custom
+type: module
+version: 8.x-1.x
+dependencies:
+  - pdb_react
+  - hs_events
+  - jsonapi_extras

@@ -1,0 +1,301 @@
+uuid: 645defaf-7b2a-4d69-b778-ce77c295c03e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stanford_event
+id: node--stanford_event
+disabled: false
+path: node/stanford_event
+resourceType: node--stanford_event
+resourceFields:
+  nid:
+    fieldName: nid
+    publicName: eventId
+    enhancer:
+      id: ''
+    disabled: false
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  uuid:
+    fieldName: uuid
+    publicName: guid
+    enhancer:
+      id: ''
+    disabled: false
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  vid:
+    disabled: true
+    fieldName: vid
+    publicName: vid
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  langcode:
+    disabled: true
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  type:
+    disabled: true
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  revision_timestamp:
+    disabled: true
+    fieldName: revision_timestamp
+    publicName: revision_timestamp
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  revision_uid:
+    disabled: true
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  revision_log:
+    disabled: true
+    fieldName: revision_log
+    publicName: revision_log
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  status:
+    disabled: true
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  title:
+    fieldName: title
+    publicName: title
+    enhancer:
+      id: ''
+    disabled: false
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  uid:
+    disabled: true
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  created:
+    disabled: true
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  changed:
+    disabled: true
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  promote:
+    disabled: true
+    fieldName: promote
+    publicName: promote
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  sticky:
+    disabled: true
+    fieldName: sticky
+    publicName: sticky
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  default_langcode:
+    disabled: true
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  revision_default:
+    disabled: true
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  revision_translation_affected:
+    disabled: true
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  path:
+    disabled: true
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  menu_link:
+    disabled: true
+    fieldName: menu_link
+    publicName: menu_link
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  body:
+    fieldName: body
+    publicName: description
+    enhancer:
+      id: ''
+    disabled: false
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_admission:
+    disabled: true
+    fieldName: field_s_event_admission
+    publicName: field_s_event_admission
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_audience:
+    disabled: true
+    fieldName: field_s_event_audience
+    publicName: field_s_event_audience
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_category:
+    disabled: true
+    fieldName: field_s_event_category
+    publicName: field_s_event_category
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_contact_email:
+    disabled: true
+    fieldName: field_s_event_contact_email
+    publicName: field_s_event_contact_email
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_contact_phone:
+    disabled: true
+    fieldName: field_s_event_contact_phone
+    publicName: field_s_event_contact_phone
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_date:
+    fieldName: field_s_event_date
+    publicName: isoEventDate
+    enhancer:
+      id: date_time
+      settings:
+        dateTimeFormat: c
+    disabled: false
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_image:
+    fieldName: field_s_event_image
+    publicName: imageUrl
+    enhancer:
+      id: ''
+    disabled: false
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_link:
+    disabled: true
+    fieldName: field_s_event_link
+    publicName: field_s_event_link
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_location:
+    disabled: true
+    fieldName: field_s_event_location
+    publicName: field_s_event_location
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_map_link:
+    disabled: true
+    fieldName: field_s_event_map_link
+    publicName: field_s_event_map_link
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_speaker:
+    disabled: true
+    fieldName: field_s_event_speaker
+    publicName: field_s_event_speaker
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_sponsor:
+    disabled: true
+    fieldName: field_s_event_sponsor
+    publicName: field_s_event_sponsor
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_status:
+    disabled: true
+    fieldName: field_s_event_status
+    publicName: field_s_event_status
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_type:
+    disabled: true
+    fieldName: field_s_event_type
+    publicName: field_s_event_type
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
+  field_s_event_video:
+    disabled: true
+    fieldName: field_s_event_video
+    publicName: field_s_event_video
+    enhancer:
+      id: ''
+    advancedOptionsIcon: ''
+    enhancer_label: ''
